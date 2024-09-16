@@ -56,6 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "AgramaeamargA.sln"
-    "dotnet.defaultSolution": "raio.sln"
+    "AgramaeamargA.slndotnet.defaultSolution": "raio.sln",
+    "dotnet.defaultSolution": "Um-raio-nao-cai-duas-vezes-no-mesmo-lugar.sln"
 }
