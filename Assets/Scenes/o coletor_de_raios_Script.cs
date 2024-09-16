@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boat : MonoBehaviour
+public class ray : MonoBehaviour
 {
     public int MaxHealth;
     public float speed;
