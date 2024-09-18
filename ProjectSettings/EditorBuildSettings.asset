@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 768bc26f0d1231e449e701f467ed834a
+  - enabled: 1
+    path: "Assets/Scenes/vit\xF3ria.unity"
+    guid: 79e26f20c39972d499832460794ed959
   m_configObjects: {}

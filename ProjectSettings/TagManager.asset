@@ -10,6 +10,9 @@ TagManager:
   - sim
   - nao
   - parede
+  - menu
+  - Ato1
+  - "vit\xF3ria"
   layers:
   - Default
   - TransparentFX

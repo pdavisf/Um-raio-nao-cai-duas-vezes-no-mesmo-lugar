@@ -24,7 +24,10 @@ public class PlayerController : MonoBehaviour
 
         if(this.pulando)
         {
-            if(Input.GetKey(KeyCode.Space));
+            if(Input.GetKey(KeyCode.Space))
+            {
+
+            }
         }
     }
 
@@ -84,6 +87,18 @@ public class PlayerController : MonoBehaviour
         if(other.CompareTag("nao"))
         {
             SceneManager.LoadScene("GameOver");
+        }
+        if(other.CompareTag("menu"))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+        if(other.CompareTag("Ato1"))
+        {
+            SceneManager.LoadScene("Ato1");
+        }
+        if(other.CompareTag("vitória"))
+        {
+            SceneManager.LoadScene("vitória");
         }
     }
 } 
