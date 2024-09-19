@@ -100,5 +100,9 @@ public class PlayerController : MonoBehaviour
         {
             SceneManager.LoadScene("vitória");
         }
+        if(other.CompareTag("menu2"))
+        {
+            SceneManager.LoadScene("Menu");
+        }
     }
 } 
