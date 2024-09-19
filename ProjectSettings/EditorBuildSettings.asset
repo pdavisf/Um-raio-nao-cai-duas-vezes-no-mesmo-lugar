@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/vit\xF3ria.unity"
     guid: 79e26f20c39972d499832460794ed959
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: a41dc02fb10035441bd9b987d289a5af
   m_configObjects: {}
