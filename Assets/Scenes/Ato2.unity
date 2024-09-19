@@ -5955,7 +5955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 690947331}
   velocidade: 5
-  pulo: 8.8
+  pulo: 8
   "ch\xE3o": {fileID: 578640495}
   detector: 0.1
   ground:
