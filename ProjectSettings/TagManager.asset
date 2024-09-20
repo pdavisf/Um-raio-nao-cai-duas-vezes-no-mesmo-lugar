@@ -14,6 +14,9 @@ TagManager:
   - Ato1
   - "vit\xF3ria"
   - menu2
+  - morte2
+  - Inicio
+  - inicio
   layers:
   - Default
   - TransparentFX
@@ -21,7 +24,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Player
   - 
   - ground
   - 

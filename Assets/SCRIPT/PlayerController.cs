@@ -75,6 +75,10 @@ public class PlayerController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if(other.CompareTag("morte2"))
+        {
+            SceneManager.LoadScene("Ato2");
+        }
         if(other.CompareTag("Enemy"))
         {
             Destroy(other.gameObject);
@@ -109,6 +113,10 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene("vitória");
         }
         if(other.CompareTag("menu2"))
+        {
+            SceneManager.LoadScene("Menu");
+        }
+        if(other.CompareTag("inicio"))
         {
             SceneManager.LoadScene("Menu");
         }

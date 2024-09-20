@@ -6,6 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 270a89b232d9dc446a049248012742d0
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: a41dc02fb10035441bd9b987d289a5af
+  - enabled: 1
     path: Assets/Scenes/Ato1.unity
     guid: 8509e5a7bf8b015418898e244e4ad249
   - enabled: 1
@@ -20,7 +26,4 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/vit\xF3ria.unity"
     guid: 79e26f20c39972d499832460794ed959
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: a41dc02fb10035441bd9b987d289a5af
   m_configObjects: {}
