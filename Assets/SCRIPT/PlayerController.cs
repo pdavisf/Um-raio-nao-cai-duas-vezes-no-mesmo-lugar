@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform chão;
     [SerializeField] private float detector;
     [SerializeField] private LayerMask ground;
+    [SerializeField] private Animator anime;
 
     void Start()
     {
@@ -29,6 +30,8 @@ public class PlayerController : MonoBehaviour
 
             }
         }
+
+        MoveAnime();
     }
 
     void Movement()
@@ -46,6 +49,11 @@ public class PlayerController : MonoBehaviour
         {
             this.sprite.flipX = true;
         }
+    }
+
+    void MoveAnime()
+    {
+        anime.SetFloat("AndarAnim", Player.velocity.x);
     }
     void Jump()
     {
